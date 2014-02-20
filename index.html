@@ -1,0 +1,20 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Trocchi|Montserrat' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="logo">Say something nice</h1>
+      </header>
+      <div class="message">
+        <input type="text" ng-model="message" placeholder="Say something nice">
+        <input type="text" ng-model="name" placeholder="to someone">
+        <h1 class="top">{{message}}</h1><h1>{{name}}</h1>
+      </div>
+    </div>
+  </body>
+</html>
